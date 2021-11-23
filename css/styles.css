@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -170vw -60vh, 40vw 40vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  body {
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -20vw -60vh, 50vw 50vh;
+  margin: 0;
+  }
+}
+
+.profile-name,
+.profile-stat {
+  font-weight: 700;
+}
+
+.profile-name,
+.profile-age,
+.profile-stat {
+  font-size: 1.125rem;
+}
+
+.profile-age,
+.profile-location,
+.profile-item {
+  color: #6b7082;
+}
+
+.profile-location {
+  font-size: .875rem;
+}
+
+.profile-item {
+  font-size: 0.625rem;
+}
+
+.card-body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 375px;
+  width: 100%;
+  margin-top: 13em;
+  border-radius: 1em;
+}
+
+.card-decoration {
+  background-image: url("../images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.flex {
+  display: flex;
+}
+
+.info {
+  justify-content: center;
+  align-items: baseline;
+}
+
+.profile-age {
+  margin-left: .5em;
+}
+
+.profile-location {
+  text-align: center;
+  margin-top: 0;
+  border-bottom: 1px solid #e8e9ec;
+  padding-bottom: 2em;
+}
+
+.stats {
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0;
+  padding-bottom: 1em;
+}
+
+.profile-stat {
+  margin-bottom: .5em;
+}
+
+.number {
+  margin-left: .3em;
+}
+
+.profile-item {
+  text-align: center;
+  margin-top: 0;
+}
+
+img {
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  margin-top: -3.3em;
+  margin-left: 8.5em;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.footer-text {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: .75rem; 
+  font-weight: 900;
+  display: inline;
+  margin-right: .5em;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
