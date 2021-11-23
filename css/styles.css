@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: hsl(185, 75%, 39%);
-  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: -170vw -60vh, 40vw 40vh;
   font-family: 'Kumbh Sans', sans-serif;
@@ -19,7 +19,7 @@ body {
 
 @media (min-width: 600px) {
   body {
-  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: -20vw -60vh, 50vw 50vh;
   margin: 0;
@@ -61,7 +61,7 @@ body {
 }
 
 .card-decoration {
-  background-image: url("../images/bg-pattern-card.svg");
+  background-image: url("/images/bg-pattern-card.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5em;
